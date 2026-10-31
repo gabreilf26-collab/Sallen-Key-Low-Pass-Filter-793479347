@@ -3,12 +3,12 @@ The goal of this project was to apply what ive learned over the past few months 
 .
 . 
 . 
-My first version was just an attempt to get the basic filter design with my element values into the program and working. It did not work. The amplitude in dB for all components was completely flat, meaning that the current simply wasnt flowing; if the current was flowing then the existence of the resistors and cutoff frequency of the op-amp would have surely created some kind of curve otherwise 
+My first version was just an attempt to get the basic filter design with my element values into the program and working. It did not work. The amplitude in dB for all components was completely flat, meaning that the current simply was not being filtered; if the current was flowing then the existence of the resistors and cutoff frequency of the op-amp would have surely created some kind of curve otherwise 
 ![Initial try](images(inREADME)/V1.note.png)
 .
 .
 .
-In my second version i had realized why the current wasnt flowing. My voltage sources had no ground, meaning that they werent connected to anything outside of the confines of the circuit. This of course creates the issue of the current having nowhere to go, and thus the circuit simply did not have flowing current. This second version had curves, so i knew that it was now doing something, but the amplitude (dB) graph was super far in the negative. I know from the math that the dB should be -6 at 1.6kHz, when in this version the dB was at -66 at 1.6 kHz. 
+In my second version i had realized why the current wasnt flowing. My voltage sources had no ground, meaning that they werent connected to some of the outputs that they needed to be connected to. This of course creates the issue of the current having nowhere to go, and thus the circuit simply did not have flowing current. This second version had curves, so i knew that it was now doing something, but the amplitude (dB) graph was super far in the negative. I know from the math that the dB should be -6 at 1.6kHz, when in this version the dB was at -66 at 1.6 kHz. 
 ![Second try](images(inREADME)/V2.note.png)
 .
 .
